@@ -41,6 +41,12 @@ define('WP_HOME', 'http://' . $_SERVER['SERVER_NAME']);
 define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
 define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
 
+/**
+ *  Force SSL Logins and SSL Admin Access
+ */
+define('FORCE_SSL_ADMIN', true);
+
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
