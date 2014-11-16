@@ -1,0 +1,43 @@
+# -----------------------------------------------------------------
+# .gitignore for WordPress
+# -----------------------------------------------------------------
+ 
+# ignore all files starting with .
+.*
+ 
+# ignore all files that start with ~
+~*
+
+# ignore all temp files
+*~
+ 
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+ 
+# ignore log files and databases
+*.log
+  
+# Ignore uploads directory
+wordpress/wp-content/uploads/*
+
+# Ignore upgrade directory
+wordpress/wp-content/upgrade/*
+
+# Remove SASS cache files #
+wp-content/themes/efeqdev/.sass-cache/*
+
+# From github
+
+*.log
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
