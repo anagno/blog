@@ -3,4 +3,7 @@
 	url = https://github.com/WordPress/WordPress.git
 [submodule "wp-content/plugins/site-launcher"]
 	path = wp-content/plugins/site-launcher
-	url = https://github.com/wp-plugins/site-launcher
+	url = https://github.com/anagno/site-launcher
+[submodule "wp-content/plugins/site-launcher2"]
+	path = wp-content/plugins/site-launcher2
+	url = https://github.com/anagno/site-launcher
