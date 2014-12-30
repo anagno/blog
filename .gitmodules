@@ -7,3 +7,6 @@
 [submodule "wp-content/plugins/site-launcher2"]
 	path = wp-content/plugins/site-launcher2
 	url = https://github.com/anagno/site-launcher
+[submodule "wp-content/polylang"]
+	path = wp-content/polylang
+	url = git@github.com:anagno/polylang.git
