@@ -10,3 +10,6 @@
 [submodule "wp-content/polylang"]
 	path = wp-content/polylang
 	url = git@github.com:anagno/polylang.git
+[submodule "wp-content/plugins/qtranslate-x"]
+	path = wp-content/plugins/qtranslate-x
+	url = git@github.com:anagno/qtranslate-x.git
